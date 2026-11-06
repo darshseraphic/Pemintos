@@ -1,4 +1,4 @@
-VOTRIXAIN PROPRIETARY SOURCE-AVAILABLE LICENSE
+PEMINTOS PROPRIETARY SOURCE-AVAILABLE LICENSE
 
 Copyright (c) 2026 Darshseraphic. All Rights Reserved.
 
@@ -54,7 +54,7 @@ you may not:
 (e) remove, alter, or conceal copyright, attribution, trademark, or proprietary
     notices; or
 
-(f) use the Votrixain name, logo, or branding in a way that suggests
+(f) use the PEMINTOS name, logo, or branding in a way that suggests
     sponsorship, endorsement, or affiliation without written permission.
 
 Nothing in this License prevents you from viewing or testing the publicly
