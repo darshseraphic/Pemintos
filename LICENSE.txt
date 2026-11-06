@@ -1,0 +1,122 @@
+VOTRIXAIN PROPRIETARY SOURCE-AVAILABLE LICENSE
+
+Copyright (c) 2026 Darshseraphic. All Rights Reserved.
+
+NOTICE
+
+Votrixain, including its source code, object code, user interface, branding,
+icons, documentation, and related materials (the "Software"), is proprietary
+property of Darshseraphic, except for third-party materials that are expressly
+identified as being subject to separate license terms.
+
+The source code may be made publicly viewable so that people can inspect,
+understand, evaluate, and test the Software. Public visibility does not place
+the Software in the public domain and does not grant general copying,
+modification, redistribution, resale, or commercial-use rights.
+
+1. LIMITED PERMISSION TO VIEW AND USE
+
+Subject to this License, you are permitted to:
+
+(a) view, read, and inspect the source code made publicly available by the
+    copyright holder, solely for personal evaluation, learning, and reference;
+
+(b) download, install, execute, and use an official, unmodified Votrixain
+    release for your own personal, non-commercial purposes; and
+
+(c) run the Software and its included tests to check, evaluate, or verify its
+    behavior, and report bugs or suggest improvements to the copyright holder.
+
+Any local copy that is technically necessary to view, inspect, install, run,
+or test the publicly provided source or an official release is permitted only
+for that personal, non-commercial purpose. This limited permission does not
+authorize making or sharing additional copies.
+
+2. RESTRICTIONS
+
+Unless you first obtain explicit written permission from the copyright holder,
+you may not:
+
+(a) copy, reproduce, republish, upload, mirror, distribute, redistribute,
+    share, transfer, sublicense, or otherwise make the Software, source code,
+    or any portion of it available to another person or repository, except for
+    the limited GitHub-platform rights described in Section 4;
+
+(b) sell, resell, rent, lease, license, offer for sale, monetize, or otherwise
+    commercially exploit the Software, source code, or any portion of it;
+
+(c) modify, adapt, translate, merge, create derivative works from, or create a
+    fork, rebranded version, or competing product based on the Software;
+
+(d) incorporate any portion of the Software into another product, extension,
+    service, or commercial or non-commercial distribution;
+
+(e) remove, alter, or conceal copyright, attribution, trademark, or proprietary
+    notices; or
+
+(f) use the Votrixain name, logo, or branding in a way that suggests
+    sponsorship, endorsement, or affiliation without written permission.
+
+Nothing in this License prevents you from viewing or testing the publicly
+provided source as expressly permitted in Section 1. Source inspection is not
+permission to copy, modify, publish, distribute, or sell that source, except
+for limited platform actions addressed in Section 4.
+
+3. OWNERSHIP AND NO IMPLIED RIGHTS
+
+The Software is licensed, not sold. All rights not expressly granted in this
+License are reserved by the copyright holder. No ownership, trademark, patent,
+or other intellectual-property rights are transferred to you. Access to a
+public repository or a copy of this License does not grant any additional
+rights.
+
+4. GITHUB PLATFORM RIGHTS
+
+If the Software is hosted in a public GitHub repository, GitHub's Terms of
+Service require the repository owner to grant other GitHub users certain
+platform-specific rights, including the ability to view and fork the public
+repository through GitHub. Those rights arise from GitHub's Terms of Service
+and are limited to the GitHub service and its functionality. This License does
+not grant an additional right to sell, commercially exploit, or distribute
+the Software outside the scope of those platform-specific rights. Review
+GitHub's current Terms of Service before making the repository public.
+
+If you do not want to permit GitHub users to fork the repository on GitHub,
+do not publish it as a public GitHub repository; use a private repository
+instead. A private repository will not allow the general public to inspect the
+source.
+
+5. THIRD-PARTY MATERIALS
+
+Third-party software, assets, or documentation identified in the repository
+may be subject to their own license terms. This License does not replace or
+alter those separate terms. You are responsible for reviewing and complying
+with any applicable third-party license notices.
+
+6. TERMINATION
+
+The permissions granted by this License terminate automatically if you fail
+to comply with its terms. Upon termination, you must stop using the Software
+and delete local copies in your possession, except to the extent retention is
+required by applicable law. The copyright holder may pursue any remedies
+available under applicable law.
+
+7. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+8. PERMISSIONS AND CONTACT
+
+For any use not expressly permitted by this License, including commercial use,
+redistribution, modification, or resale, obtain prior written permission from:
+
+Darshseraphic
+Darsh.seraphic@gmail.com
+
+All Rights Reserved.

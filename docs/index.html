@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F4F4F4">
+  <meta name="description" content="Pemintos is a quiet, local-first notepad for Chrome. Write a thought, keep it in your browser, and download it as a plain-text file when you're ready.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pemintos — A little space for your thoughts">
+  <meta property="og:description" content="A quiet, local-first notepad for Google Chrome.">
+  <meta property="og:image" content="assets/logo.png">
+  <title>Pemintos — A little space for your thoughts</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preload" href="assets/logo.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Pemintos home">
+      <img class="brand-mark" src="assets/logo.png" width="34" height="34" alt="">
+      <span>pemintos</span>
+    </a>
+
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+
+    <div class="top-actions">
+      <button class="theme-button" id="themeToggle" type="button" aria-label="Change color theme" title="Theme: System. Click to change.">
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="10" cy="10" r="6.4" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M10 3.6a6.4 6.4 0 0 1 0 12.8V3.6Z" fill="currentColor"/>
+        </svg>
+        <span id="themeLabel">System</span>
+      </button>
+      <a class="header-cta" href="#install">Get Pemintos <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-width" aria-labelledby="heroTitle">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-rule"></span> A PRIVATE NOTEPAD FOR CHROME</div>
+        <h1 id="heroTitle">Write it down.<br><em>Keep it yours.</em></h1>
+        <p class="hero-lede">A little space for your thoughts. Capture a note, leave the popup, and pick up right where you stopped — all on this device.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#install">Get started <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#features">Explore Pemintos <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta"><span class="meta-dot"></span> LOCAL-FIRST <span class="meta-separator">/</span> PLAIN-TEXT EXPORTS <span class="meta-separator">/</span> NO ACCOUNT</div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" aria-label="Preview of the Pemintos Chrome extension">
+        <div class="extension-window">
+          <div class="window-bar">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>CHROME EXTENSION</span>
+            <span class="window-menu" aria-hidden="true">•••</span>
+          </div>
+          <div class="extension-content">
+            <div class="preview-brand">
+              <div class="preview-brand-lockup">
+                <img src="assets/logo.png" width="30" height="30" alt="">
+                <strong>pemintos</strong>
+              </div>
+              <span class="preview-theme">◐ &nbsp; System</span>
+            </div>
+            <div class="preview-intro">
+              <span class="preview-eyebrow">YOUR PRIVATE NOTEPAD</span>
+              <div class="preview-title">Make room for<br>your thoughts.</div>
+              <p>A simple place to write things down.</p>
+            </div>
+            <div class="preview-editor">
+              <div class="preview-editor-head">
+                <div><strong>New note</strong><small>A little space to think.</small></div>
+                <span class="preview-status"><i></i> Saved</span>
+              </div>
+              <div class="preview-paper">Remember this idea for later.<br><br>Keep the important parts.<br>Let the rest wait.</div>
+              <div class="preview-editor-foot"><span>Draft stored locally</span><span>12 words</span></div>
+            </div>
+            <div class="preview-save-row">
+              <span>Save note</span>
+              <span class="preview-save-icon" aria-hidden="true">↓</span>
+            </div>
+            <div class="preview-saved">
+              <div class="preview-saved-head"><strong>Saved notes</strong><span>01</span></div>
+              <div class="preview-note-row"><span class="file-glyph" aria-hidden="true">TXT</span><span><strong>hello.txt</strong><small>Just now</small></span><b aria-hidden="true">↗</b></div>
+            </div>
+          </div>
+        </div>
+        <div class="visual-caption"><span>01 / THE WRITING SPACE</span><span>SMALL BY DESIGN</span></div>
+      </div>
+    </section>
+
+    <section class="facts-strip" aria-label="Pemintos at a glance">
+      <div><strong>01</strong><span>LOCAL DRAFT</span></div>
+      <div><strong>02</strong><span>SAVED LIBRARY</span></div>
+      <div><strong>.TXT</strong><span>PORTABLE NOTES</span></div>
+      <div><strong>0</strong><span>ACCOUNTS REQUIRED</span></div>
+    </section>
+
+    <section class="section page-width intro-section">
+      <div class="eyebrow"><span class="eyebrow-rule"></span> THE IDEA</div>
+      <div class="intro-layout">
+        <h2>Less managing.<br><em>More remembering.</em></h2>
+        <p>Pemintos keeps the act of taking a note simple. Your draft stays in Chrome while you work. When a thought is ready to keep, save it to your notes library and download a text copy for wherever you need it next.</p>
+      </div>
+    </section>
+
+    <section class="section page-width features-section" id="features">
+      <div class="section-heading-row">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-rule"></span> 01 / THE TOOLKIT</div>
+          <h2>Everything you need.<br><em>Nothing in the way.</em></h2>
+        </div>
+        <p class="section-side-copy">A small set of useful tools, arranged around the way a note naturally moves from a thought to something worth keeping.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card feature-card-dark reveal">
+          <div class="feature-top"><span>01</span><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 6.5h18v19H7z" stroke="currentColor" stroke-width="1.5"/><path d="M11 12h10M11 16h10M11 20h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Pick up<br>where you left off.</h3>
+          <p>Your in-progress draft is saved in Chrome as you type. Close the popup, return later, and continue writing.</p>
+          <span class="feature-tag">DRAFT AUTOSAVE</span>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <div class="feature-top"><span>02</span><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M9 5.5h9l5 5v16H9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M18 5.5v5h5M12.5 16h7M12.5 20h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>A home for<br>finished notes.</h3>
+          <p>Save a note to a separate library below the writing area. Your next draft starts fresh while the saved note stays in Pemintos.</p>
+          <span class="feature-tag">SAVED NOTES</span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-top"><span>03</span><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 5v14m0 0 5-5m-5 5-5-5M7 21.5v3h18v-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Take your words<br>with you.</h3>
+          <p>Download each note as a plain-text file. Use the first word as the suggested filename or choose your own.</p>
+          <span class="feature-tag">TXT EXPORT</span>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <div class="feature-top"><span>04</span><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4.5 25 8v7c0 6-3.8 10-9 12.5C10.8 25 7 21 7 15V8l9-3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m12.5 15.5 2.3 2.3 4.8-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Local by<br>default.</h3>
+          <p>No account or Pemintos cloud service. Drafts, saved notes and theme preference use Chrome's local extension storage.</p>
+          <span class="feature-tag">ON-DEVICE STORAGE</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section page-width workflow-section" id="how-it-works">
+      <div class="eyebrow"><span class="eyebrow-rule"></span> 02 / THE FLOW</div>
+      <div class="workflow-heading">
+        <h2>Three simple steps.<br><em>Then get back to life.</em></h2>
+        <p>No folders to manage inside the popup. No account to create. Just write, save, and return when you need to.</p>
+      </div>
+      <div class="workflow-list">
+        <article class="workflow-step">
+          <span class="step-number">01</span>
+          <div><h3>Write a draft.</h3><p>Open Pemintos from Chrome's toolbar and type in the note field. Chrome stores the draft locally as you type.</p></div>
+          <span class="step-mark" aria-hidden="true">↘</span>
+        </article>
+        <article class="workflow-step">
+          <span class="step-number">02</span>
+          <div><h3>Save when it is ready.</h3><p>Select <strong>Save note</strong>. Pemintos adds the note to Saved notes, clears the writing field for the next thought, and starts a TXT download.</p></div>
+          <span class="step-mark" aria-hidden="true">↓</span>
+        </article>
+        <article class="workflow-step">
+          <span class="step-number">03</span>
+          <div><h3>Reopen and keep shaping it.</h3><p>Select a saved note to open its full-page editor. Make changes, save them back to Pemintos, or download another copy.</p></div>
+          <span class="step-mark" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="filename-section page-width" aria-labelledby="filenameTitle">
+      <div class="filename-copy">
+        <div class="eyebrow light-eyebrow"><span class="eyebrow-rule"></span> 03 / YOUR FILE, YOUR NAME</div>
+        <h2 id="filenameTitle">A name that<br><em>starts with your note.</em></h2>
+        <p>By default, Pemintos takes the first word in your note and turns it into the TXT filename. Prefer something else? Choose a custom name before saving.</p>
+      </div>
+      <div class="filename-demo" aria-label="Example of automatic and custom filenames">
+        <div class="demo-note">
+          <span class="demo-label">YOUR NOTE</span>
+          <p>hello, i see google.com</p>
+        </div>
+        <div class="demo-arrow" aria-hidden="true">↓</div>
+        <div class="demo-result">
+          <span class="demo-label">SUGGESTED FILE</span>
+          <div class="demo-file"><span class="file-glyph">TXT</span><strong>hello.txt</strong><span class="demo-check">✓</span></div>
+        </div>
+        <div class="demo-custom"><span>OR CHOOSE YOUR OWN</span><strong>project-notes.txt</strong></div>
+      </div>
+    </section>
+
+    <section class="section page-width privacy-section" id="privacy">
+      <div class="privacy-layout">
+        <div class="privacy-copy">
+          <div class="eyebrow"><span class="eyebrow-rule"></span> 04 / YOUR DATA</div>
+          <h2>Your notes stay<br><em>close to home.</em></h2>
+          <p>Pemintos stores drafts, saved notes and theme preferences in <code>chrome.storage.local</code>. The current extension source does not make network requests and does not need access to the websites you visit.</p>
+          <div class="privacy-tags"><span>Local extension storage</span><span>No account</span><span>No cloud sync</span><span>No host permissions</span></div>
+        </div>
+        <div class="privacy-card reveal">
+          <div class="privacy-card-head"><span>PERMISSIONS</span><span>MANIFEST V3</span></div>
+          <div class="permission-row"><span class="permission-symbol">▦</span><div><strong>storage</strong><p>Keep drafts, saved notes and preferences in your Chrome profile.</p></div></div>
+          <div class="permission-row"><span class="permission-symbol">↓</span><div><strong>downloads</strong><p>Export notes as plain-text files through Chrome's download manager.</p></div></div>
+          <div class="privacy-card-foot"><span class="privacy-dot"></span> No account or Pemintos server required</div>
+        </div>
+      </div>
+      <p class="privacy-caveat">Pemintos does not add application-level encryption to note contents. Avoid storing passwords or information that requires stronger protection. Anyone with access to your operating-system account or Chrome profile may be able to access local browser data.</p>
+    </section>
+
+    <section class="section page-width install-section" id="install">
+      <div class="eyebrow"><span class="eyebrow-rule"></span> 05 / GET STARTED</div>
+      <div class="install-layout">
+        <div class="install-copy">
+          <h2>Install from source.<br><em>In a minute or two.</em></h2>
+          <p>Pemintos is not currently listed in the Chrome Web Store. Clone the project repository and load the extension directly in Chrome.</p>
+          <div class="install-requirement"><span>REQUIRES</span><strong>Google Chrome 96 or later</strong></div>
+        </div>
+        <div class="install-panel">
+          <div class="install-panel-head"><span>01 / CLONE THE PROJECT</span><span class="source-status">SOURCE REPOSITORY</span></div>
+          <div class="code-row">
+            <code id="cloneCommand">git clone &lt;repository-url&gt;</code>
+            <button class="copy-button" id="copyCloneCommand" type="button" aria-label="Copy git clone command">Copy</button>
+          </div>
+          <p class="clone-note">The repository URL is a placeholder for now. Replace it with the published Git URL when available.</p>
+          <div class="install-divider"></div>
+          <div class="install-panel-head"><span>02 / LOAD IN CHROME</span><span>DEVELOPER MODE</span></div>
+          <ol class="install-steps">
+            <li><span>1</span> Open <code>chrome://extensions</code>.</li>
+            <li><span>2</span> Turn on <strong>Developer mode</strong>.</li>
+            <li><span>3</span> Select <strong>Load unpacked</strong>.</li>
+            <li><span>4</span> Choose the Pemintos folder containing <code>manifest.json</code>.</li>
+            <li><span>5</span> Pin Pemintos from the extensions menu.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-width faq-section" id="faq">
+      <div class="eyebrow"><span class="eyebrow-rule"></span> 06 / QUICK ANSWERS</div>
+      <div class="faq-layout">
+        <h2>Good to know.</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Will my draft still be there when I close the popup?</summary>
+            <p>Yes. Pemintos saves the current draft in Chrome's local extension storage as you type. Reopen the popup to continue where you left off.</p>
+          </details>
+          <details>
+            <summary>Where are my saved notes stored?</summary>
+            <p>Saved notes live in Pemintos' local extension storage, not in a regular folder on your computer. Downloaded TXT files are separate and follow Chrome's download settings.</p>
+          </details>
+          <details>
+            <summary>Can I edit a note after saving it?</summary>
+            <p>Yes. Select the note in Saved notes to open the full-page editor. Save changes to update the in-extension copy, or download the edited note as a TXT file.</p>
+          </details>
+          <details>
+            <summary>Can I choose the filename?</summary>
+            <p>Yes. Pemintos suggests a filename based on the first word of your note. Use the custom filename control to provide a different name.</p>
+          </details>
+          <details>
+            <summary>Does Pemintos encrypt my notes?</summary>
+            <p>No application-level encryption is currently added. Notes are stored through Chrome's local extension storage. Do not use Pemintos as a password manager or for highly sensitive information.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-width final-cta-section">
+      <div class="final-cta">
+        <img src="assets/logo.png" width="46" height="46" alt="" class="final-logo">
+        <div class="eyebrow light-eyebrow"><span class="eyebrow-rule"></span> PEMINTOS / YOUR PRIVATE NOTEPAD</div>
+        <h2>Make room<br><em>for your thoughts.</em></h2>
+        <p>Write a little. Keep what matters. Leave the rest for later.</p>
+        <a class="button button-light" href="#install">Get started <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width">
+    <div class="footer-main">
+      <div class="footer-brand-block">
+        <a class="brand" href="#top"><img class="brand-mark" src="assets/logo.png" width="34" height="34" alt=""><span>pemintos</span></a>
+        <p>A quiet, local-first notepad for Chrome. Just you and your words.</p>
+      </div>
+      <div class="footer-links">
+        <span>EXPLORE</span>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#install">Install guide</a>
+      </div>
+      <div class="footer-links">
+        <span>MORE</span>
+        <a href="#privacy">Privacy &amp; storage</a>
+        <a href="#faq">Quick answers</a>
+        <a href="#install">Installation</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Pemintos</span>
+      <a href="#top">Back to top ↑</a>
+      <span>Local-first by design.</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

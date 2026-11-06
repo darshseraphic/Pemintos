@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Pemintos",
+  "short_name": "Pemintos",
+  "version": "1.1.0",
+  "description": "A quiet, private notepad with a local saved-notes library and downloadable text files.",
+  "minimum_chrome_version": "96",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_title": "Open Pemintos notes",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
