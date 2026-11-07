@@ -44,7 +44,7 @@
   });
 
   copyButton?.addEventListener('click', async () => {
-    const command = cloneCommand?.textContent?.trim() || 'git clone <repository-url>';
+    const command = cloneCommand?.textContent?.trim() || 'git clone https://github.com/darshseraphic/Pemintos.git';
     try {
       await navigator.clipboard.writeText(command);
       copyButton.textContent = 'Copied';
